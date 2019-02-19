@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#BF360C</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="statusBlue">#3700B3</color>
+    <color name="statusReplyBlue">#232f34</color>
+    <color name="statusPuple">#4e0d3a</color>
+    <color name="statusGreen">#004D40</color>
+    <color name="statusGray">#263238</color>
+    <color name="statusMustard">#FF6F00</color>
+    <color name="statusOrange">#BF360C</color>
+    <color name="statusBlack">#000000</color>
+
+</resources>
