@@ -7,6 +7,6 @@
         android:background="@mipmap/splash_image"
         android:orientation="vertical"
         android:gravity="center"
-        tools:context="com.valuebiz.servicemarket.activities.SplashActivity">
+        tools:context="com.hucloud.nomadjobs.activities.SplashActivity">
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">서비스마켓</string>
+    <string name="app_name">노마드잡스</string>
     <string name="facebook_app_id">407892679716949</string>
     <string name="fb_login_protocol_scheme">fb407892679716949</string>
 </resources>

@@ -4,14 +4,13 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.1"
-
     defaultConfig {
-        applicationId "com.valuebiz.servicemarket"
+        applicationId 'com.hucloud.nomadjobs'
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 5
         versionName "1.0"
-        setProperty("archivesBaseName", "servicemarket-Release-v0.1")
+        setProperty("archivesBaseName", "nomadjobs-Release-v0.1")
     }
     signingConfigs {
     }
@@ -20,11 +19,12 @@ android {
             debuggable true
         }
     }
-
+    productFlavors {
+    }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:27.0.0'
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
